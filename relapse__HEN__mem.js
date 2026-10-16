@@ -1,11 +1,11 @@
-import { int64 } from "./int64.js";
+import { int64 } from "./relapse__HEN__int64.js";
 
 import {
   releaseFakeCell,
   fakeCellReleased,
   carrierHeaderCopy,
   carrierHomeVector,
-} from "./core.js?v=10";
+} from "./relapse__HEN__core.js?v=10";
 
 let carrier = null;
 
@@ -505,7 +505,7 @@ export function promoteToRealPair(onEvent) {
       mainRecord.length < PAIR_HEADER_BYTES
     )
       throw new Error(
-        "mem.promote: core.js's carrier record is the wrong shape",
+        "mem.promote: relapse__HEN__core.js's carrier record is the wrong shape",
       );
 
     const recordVector = low48At(mainRecord, VECTOR_OFF);
@@ -785,7 +785,7 @@ export function promoteToRealPair(onEvent) {
       throw new Error("mem.promote: core.js did not release the fake cell");
     if (fake.assertHome() !== false)
       throw new Error(
-        "mem.promote: core.js's carrier still reports itself live",
+        "mem.promote: relapse__HEN__core.js's carrier still reports itself live",
       );
 
     pairStatus.promoted = true;

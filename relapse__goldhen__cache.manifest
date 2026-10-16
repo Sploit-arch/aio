@@ -14,8 +14,8 @@ relapse__goldhen__goldhen.bin
 relapse__goldhen__patches__1302.bin
 relapse__goldhen__patches__1350.bin
 relapse__goldhen__patches__1352.bin
-core.js?v=10
-jb.js?v=10
+relapse__goldhen__core.js?v=10
+relapse__goldhen__jb.js?v=10
 
 NETWORK:
 *
