@@ -30,7 +30,7 @@
       <div class="sidebar-bottom">
         <div class="side-label">TARGET PROFILE</div>
         <div class="target-mini"><span class="ps-dot"></span><div><strong>PlayStation 4</strong><small>Firmware 13.52</small></div><span class="lock">⌑</span></div>
-        <div class="sidebar-note">Exploit engine has not been connected yet.</div>
+        <div class="sidebar-note">Engine status is not verified by this dashboard.</div>
       </div>
     </aside>
 
@@ -76,31 +76,31 @@
         <article class="profile-card compact-card">
           <div class="card-top"><span class="device-icon pink">⬡</span><span class="tiny-label">PAYLOAD TARGET</span></div>
           <h3>GoldHEN</h3>
-          <p>Upstream collection lists a 13.52-compatible build. This page does not bundle or launch it yet.</p>
+          <p>Upstream collection lists a 13.52-compatible build. This dashboard does not independently verify or launch it.</p>
           <a href="https://github.com/GoldHEN/GoldHEN" target="_blank" rel="noopener noreferrer" class="text-link">Review GoldHEN <span>↗</span></a>
         </article>
       </section>
 
       <section class="section-title host-title" id="host">
         <div><span class="section-number">02</span><div><h2>Host engine</h2><p>Exploit flow and payload status</p></div></div>
-        <span class="pill pill-amber"><i></i> INTEGRATION PENDING</span>
+        <span class="pill pill-purple"><i></i> STATUS UNVERIFIED</span>
       </section>
       <section class="engine-layout">
         <article class="engine-card">
           <div class="engine-heading"><div class="engine-icon">ϟ</div><div><h3>GoldHEN launch flow</h3><p>Firmware 13.52 · upstream integration</p></div></div>
-          <div class="warning-box"><span>!</span><div><strong>Engine not installed</strong><p>The interface is ready, but the compatible upstream exploit files and cache manifest still need to be reviewed and integrated. Launch is intentionally disabled.</p></div></div>
+          <div class="warning-box"><span>!</span><div><strong>Engine status not verified</strong><p>The dashboard cannot independently detect the PS4 exploit engine or confirm GoldHEN is running. Your console may already be jailbroken; this page has no connected diagnostic signal to verify it.</p></div></div>
           <button class="btn btn-disabled" id="launchButton" disabled><span>▶</span> Launch GoldHEN <small>NOT READY</small></button>
-          <p class="fineprint">The page will not report a successful launch until real integration and testing are implemented.</p>
+          <p class="fineprint">Launch remains disabled until the compatible engine integration is implemented and tested. This status is about the website, not your console's jailbreak state.</p>
         </article>
         <article class="terminal-card">
           <div class="terminal-top"><div><span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-dot"></span></div><span>ITSSPLOITED / HOST-CHECK</span><span class="live-label">LIVE UI</span></div>
           <div class="terminal-body" id="terminal" aria-live="polite">
-            <p><time>13:52:00</time> <b class="ok">[OK]</b> Dashboard initialized.</p>
-            <p><time>13:52:01</time> <b class="info">[INFO]</b> Target profile set to 13.52.</p>
-            <p><time>13:52:02</time> <b class="wait">[WAIT]</b> Upstream engine not integrated.</p>
-            <p><time>13:52:03</time> <b class="wait">[WAIT]</b> Payload launch disabled for safety.</p>
+            <p><time>LOCAL</time> <b class="ok">[OK]</b> Dashboard initialized.</p>
+            <p><time>LOCAL</time> <b class="info">[INFO]</b> Target profile set to 13.52.</p>
+            <p><time>LOCAL</time> <b class="wait">[WAIT]</b> Engine status has not been verified by this page.</p>
+            <p><time>LOCAL</time> <b class="wait">[WAIT]</b> Payload launch remains disabled.</p>
           </div>
-          <div class="terminal-bottom"><span><i></i> SYSTEM READY</span><span>LOCAL STATUS ONLY</span></div>
+          <div class="terminal-bottom"><span><i></i> UI READY</span><span>LOCAL STATUS ONLY</span></div>
         </article>
       </section>
 
@@ -109,11 +109,11 @@
       </section>
       <section class="utility-grid">
         <article class="utility-card"><div class="utility-icon">▤</div><h3>Offline cache</h3><p>Validate static assets and cache manifest paths before enabling offline use.</p><span class="utility-state">PLANNED</span></article>
-        <article class="utility-card"><div class="utility-icon">⌁</div><h3>Diagnostics</h3><p>Track UI status and show real host messages when the upstream flow is integrated.</p><span class="utility-state">UI DEMO</span></article>
+        <article class="utility-card"><div class="utility-icon">⌁</div><h3>Diagnostics</h3><p>Track UI status and show real host messages when a supported diagnostic signal is integrated.</p><span class="utility-state">UI DEMO</span></article>
         <article class="utility-card"><div class="utility-icon">⬡</div><h3>Payload library</h3><p>List only payloads verified for the selected firmware and document their sources.</p><span class="utility-state">PLANNED</span></article>
       </section>
 
-      <footer><div class="footer-brand"><span class="logo mini">S<span>.</span></span><strong>ITSSPLOITED</strong></div><span>COMMUNITY PROJECT · NOT AFFILIATED WITH SONY OR GOLDHEN</span><span>BUILD 0.1.0</span></footer>
+      <footer><div class="footer-brand"><span class="logo mini">S<span>.</span></span><strong>ITSSPLOITED</strong></div><span>COMMUNITY PROJECT · NOT AFFILIATED WITH SONY OR GOLDHEN</span><span>BUILD 0.1.1</span></footer>
     </div>
   </main>
   <script src="assets__js__app.js"></script>
