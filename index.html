@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090611">
+  <meta name="description" content="ItsSploited PS4 Host — firmware 13.52 project.">
+  <title>ItsSploited // PS4 Host</title>
+  <link rel="stylesheet" href="assets__css__main.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="ItsSploited home">
+      <span class="logo">S<span>.</span></span>
+      <span class="brand-copy"><strong>ITSSPLOITED</strong><small>PS4 HOST <i>//</i> COMMUNITY BUILD</small></span>
+    </a>
+    <div class="top-right">
+      <span class="connection"><i></i> UI ONLINE</span>
+      <a class="github-link" href="https://github.com/eddieygaming/ps4aio" target="_blank" rel="noopener noreferrer">UPSTREAM REFERENCE <span>↗</span></a>
+    </div>
+  </header>
+
+  <main class="shell">
+    <aside class="sidebar">
+      <div class="side-label">WORKSPACE</div>
+      <a class="nav-item active" href="#dashboard"><span class="nav-icon">◈</span> Dashboard <b>01</b></a>
+      <a class="nav-item" href="#host"><span class="nav-icon">⌁</span> Host engine <b>02</b></a>
+      <a class="nav-item" href="#utilities"><span class="nav-icon">⌘</span> Utilities <b>03</b></a>
+      <div class="sidebar-bottom">
+        <div class="side-label">TARGET PROFILE</div>
+        <div class="target-mini"><span class="ps-dot"></span><div><strong>PlayStation 4</strong><small>Firmware 13.52</small></div><span class="lock">⌑</span></div>
+        <div class="sidebar-note">Exploit engine has not been connected yet.</div>
+      </div>
+    </aside>
+
+    <div class="content" id="dashboard">
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> ITSSPLOITED HEN EXPLOIT</div>
+          <h1>ItsSploited Hen<br><em>Exploit Host.</em></h1>
+          <p>ItsSploited Hen exploit host for PS4 firmware 13.52, with a custom interface, diagnostics and a modular upstream engine.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#host"><span class="play">▶</span> Open host panel <span class="arrow">↗</span></a>
+            <a class="btn btn-quiet" href="#utilities">Explore utilities <span>↓</span></a>
+            <a class="btn btn-quiet" href="relapse__version-selector.html">Open upstream 13.52 selector <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="core"><span>S</span><i></i></div>
+          <div class="float-tag tag-top"><span class="tiny-pulse"></span> TARGET LOCKED</div>
+          <div class="float-tag tag-bottom"><small>FIRMWARE</small><strong>13.52</strong></div>
+          <div class="grid-floor"></div>
+        </div>
+      </section>
+
+      <section class="section-title">
+        <div><span class="section-number">01</span><div><h2>Firmware profile</h2><p>Target environment and host compatibility</p></div></div>
+        <span class="pill pill-purple">FIXED TARGET</span>
+      </section>
+      <section class="profile-grid">
+        <article class="profile-card main-profile">
+          <div class="card-top"><span class="device-icon">▣</span><span class="tiny-label">CONSOLE TARGET</span><span class="corner-mark">↗</span></div>
+          <div class="profile-name">PlayStation 4</div>
+          <div class="firmware-line"><strong>13.52</strong><span class="verified-dot"></span><span>Selected profile</span></div>
+          <div class="progress-track"><span></span></div>
+          <div class="profile-bottom"><span>FIRMWARE ROUTING</span><strong>LOCKED TO 13.52</strong></div>
+        </article>
+        <article class="profile-card compact-card">
+          <div class="card-top"><span class="device-icon purple">⌘</span><span class="tiny-label">HOST METHOD</span></div>
+          <h3>Relapse / Slopkit</h3>
+          <p>Candidate upstream route documented for the 13.02–13.52 range. Verify the exact release before use.</p>
+          <a href="https://github.com/eddieygaming/ps4aio" target="_blank" rel="noopener noreferrer" class="text-link">Review upstream <span>↗</span></a>
+        </article>
+        <article class="profile-card compact-card">
+          <div class="card-top"><span class="device-icon pink">⬡</span><span class="tiny-label">PAYLOAD TARGET</span></div>
+          <h3>GoldHEN</h3>
+          <p>Upstream collection lists a 13.52-compatible build. This page does not bundle or launch it yet.</p>
+          <a href="https://github.com/GoldHEN/GoldHEN" target="_blank" rel="noopener noreferrer" class="text-link">Review GoldHEN <span>↗</span></a>
+        </article>
+      </section>
+
+      <section class="section-title host-title" id="host">
+        <div><span class="section-number">02</span><div><h2>Host engine</h2><p>Exploit flow and payload status</p></div></div>
+        <span class="pill pill-amber"><i></i> INTEGRATION PENDING</span>
+      </section>
+      <section class="engine-layout">
+        <article class="engine-card">
+          <div class="engine-heading"><div class="engine-icon">ϟ</div><div><h3>GoldHEN launch flow</h3><p>Firmware 13.52 · upstream integration</p></div></div>
+          <div class="warning-box"><span>!</span><div><strong>Engine not installed</strong><p>The interface is ready, but the compatible upstream exploit files and cache manifest still need to be reviewed and integrated. Launch is intentionally disabled.</p></div></div>
+          <button class="btn btn-disabled" id="launchButton" disabled><span>▶</span> Launch GoldHEN <small>NOT READY</small></button>
+          <p class="fineprint">The page will not report a successful launch until real integration and testing are implemented.</p>
+        </article>
+        <article class="terminal-card">
+          <div class="terminal-top"><div><span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-dot"></span></div><span>ITSSPLOITED / HOST-CHECK</span><span class="live-label">LIVE UI</span></div>
+          <div class="terminal-body" id="terminal" aria-live="polite">
+            <p><time>13:52:00</time> <b class="ok">[OK]</b> Dashboard initialized.</p>
+            <p><time>13:52:01</time> <b class="info">[INFO]</b> Target profile set to 13.52.</p>
+            <p><time>13:52:02</time> <b class="wait">[WAIT]</b> Upstream engine not integrated.</p>
+            <p><time>13:52:03</time> <b class="wait">[WAIT]</b> Payload launch disabled for safety.</p>
+          </div>
+          <div class="terminal-bottom"><span><i></i> SYSTEM READY</span><span>LOCAL STATUS ONLY</span></div>
+        </article>
+      </section>
+
+      <section class="section-title" id="utilities">
+        <div><span class="section-number">03</span><div><h2>Utilities</h2><p>Tools to add after the host engine is verified</p></div></div>
+      </section>
+      <section class="utility-grid">
+        <article class="utility-card"><div class="utility-icon">▤</div><h3>Offline cache</h3><p>Validate static assets and cache manifest paths before enabling offline use.</p><span class="utility-state">PLANNED</span></article>
+        <article class="utility-card"><div class="utility-icon">⌁</div><h3>Diagnostics</h3><p>Track UI status and show real host messages when the upstream flow is integrated.</p><span class="utility-state">UI DEMO</span></article>
+        <article class="utility-card"><div class="utility-icon">⬡</div><h3>Payload library</h3><p>List only payloads verified for the selected firmware and document their sources.</p><span class="utility-state">PLANNED</span></article>
+      </section>
+
+      <footer><div class="footer-brand"><span class="logo mini">S<span>.</span></span><strong>ITSSPLOITED</strong></div><span>COMMUNITY PROJECT · NOT AFFILIATED WITH SONY OR GOLDHEN</span><span>BUILD 0.1.0</span></footer>
+    </div>
+  </main>
+  <script src="assets__js__app.js"></script>
+</body>
+</html>

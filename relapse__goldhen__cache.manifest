@@ -1,0 +1,21 @@
+CACHE MANIFEST
+
+CACHE:
+relapse__goldhen__index.html
+relapse__goldhen__jb.html
+relapse__goldhen__jb.js
+relapse__goldhen__core.js
+relapse__goldhen__mem.js
+relapse__goldhen__int64.js
+relapse__goldhen__ps4_offsets.js
+relapse__goldhen__rpc_worker.js
+relapse__goldhen__payload2.bin
+relapse__goldhen__goldhen.bin
+relapse__goldhen__patches__1302.bin
+relapse__goldhen__patches__1350.bin
+relapse__goldhen__patches__1352.bin
+core.js?v=10
+jb.js?v=10
+
+NETWORK:
+*

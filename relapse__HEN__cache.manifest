@@ -1,0 +1,20 @@
+CACHE MANIFEST
+
+CACHE:
+relapse__HEN__index.html
+relapse__HEN__jb.html
+relapse__HEN__jb.js
+relapse__HEN__core.js
+relapse__HEN__mem.js
+relapse__HEN__int64.js
+relapse__HEN__ps4_offsets.js
+relapse__HEN__rpc_worker.js
+relapse__HEN__payload2.bin
+relapse__HEN__patches__1302.bin
+relapse__HEN__patches__1350.bin
+relapse__HEN__patches__1352.bin
+core.js?v=10
+jb.js?v=10
+
+NETWORK:
+*
